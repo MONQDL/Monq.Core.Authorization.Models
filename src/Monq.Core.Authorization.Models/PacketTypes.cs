@@ -24,5 +24,10 @@
         /// Пользователь РГ.
         /// </summary>
         WorkgroupUser,
+
+        /// <summary>
+        /// Менеджер РГ "Администраторы пространства".
+        /// </summary>
+        UserspaceManager
     }
 }
