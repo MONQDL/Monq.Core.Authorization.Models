@@ -28,6 +28,16 @@
         /// <summary>
         /// Менеджер РГ "Администраторы пространства".
         /// </summary>
-        UserspaceManager
+        UserspaceManager,
+
+        /// <summary>
+        /// Пакет, созданный пользователем в рабочей группе.
+        /// </summary>
+        WorkgroupCustom,
+
+        /// <summary>
+        /// Пакет, созданный пользователем в группе администраторов пространства.
+        /// </summary>
+        UserspaceCustom,
     }
 }
