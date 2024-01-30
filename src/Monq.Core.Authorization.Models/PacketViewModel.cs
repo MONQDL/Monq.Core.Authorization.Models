@@ -43,6 +43,6 @@ namespace Monq.Core.Authorization.Models
         /// <summary>
         /// Тип пакета - пакет рабочей группы или пакет пространства.
         /// </summary>
-        public PacketTypes PacketType { get; set; }
+        public PacketTypes Type { get; set; }
     }
 }
