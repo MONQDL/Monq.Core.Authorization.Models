@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Converters;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 
@@ -17,7 +18,6 @@ namespace Monq.Core.Authorization.Models
         /// <summary>
         /// Имя пакета пользовательских прав.
         /// </summary>
-        [NotNull]
         public string Name { get; set; } = default!;
 
         /// <summary>
@@ -39,5 +39,10 @@ namespace Monq.Core.Authorization.Models
         /// Коллекция владельцев пакета.
         /// </summary>
         public IEnumerable<PacketOwnerViewModel> Owners { get; set; } = Array.Empty<PacketOwnerViewModel>();
+
+        /// <summary>
+        /// Тип пакета - пакет рабочей группы или пакет пространства.
+        /// </summary>
+        public PacketTypes Type { get; set; }
     }
 }
