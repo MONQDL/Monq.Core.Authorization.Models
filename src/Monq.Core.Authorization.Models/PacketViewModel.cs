@@ -1,7 +1,5 @@
-﻿using Newtonsoft.Json.Converters;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 
 namespace Monq.Core.Authorization.Models
 {
