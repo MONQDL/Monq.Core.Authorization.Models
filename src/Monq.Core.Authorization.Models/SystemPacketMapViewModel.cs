@@ -1,6 +1,3 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
-
 namespace Monq.Core.Authorization.Models
 {
     /// <summary>
@@ -26,7 +23,6 @@ namespace Monq.Core.Authorization.Models
         /// <summary>
         /// Тип пакета.
         /// </summary>
-        [JsonConverter(typeof(StringEnumConverter))]
         public PacketTypes PacketType { get; set; }
     }
 }
