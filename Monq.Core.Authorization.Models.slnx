@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Monq.Core.Authorization.Models/Monq.Core.Authorization.Models.csproj" />
+  </Folder>
+</Solution>
